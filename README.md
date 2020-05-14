@@ -3,6 +3,13 @@
 ## Información de la aplicación
 BitcoinValue es el nombre de la aplicación web capaz de convertir el valor del bitcoin a distintas divisas tales como: (**USD, CLP, BRL, EUR, CNY**), con el fin de facilitar la conversion de esta moneda; La aplicación además cuenta con una sección de registro en el cual se detalla todo el historico de cada divisa, que es representada mediante graficos.
 
+## IMAGENES DEMO
+
+![Screenshot_2020-05-14 MyApp](https://user-images.githubusercontent.com/34754307/81955178-c2630d00-95d7-11ea-9314-75fe5801d226.png)
+
+![Screenshot_2020-05-14 MyApp(1)](https://user-images.githubusercontent.com/34754307/81955212-cdb63880-95d7-11ea-821e-a06d3591591b.png)
+
+
 ## MODO DE USO
 
 La aplicación esta desarrollada con docker por lo tanto es importante seguir los siguientes pasos:
