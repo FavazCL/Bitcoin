@@ -1,0 +1,54 @@
+@import '../../../utilities/utility.component.scss';
+
+.converter {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+
+    .converter-title {
+        h1 {
+            padding-top: 15px;
+            font-weight: $f_big;
+            color: $color_2;
+        }
+    }
+
+    .converter-change {
+        .row {
+            margin-right: 0;
+            
+            .col-lg-12 {
+                p {
+                    color: $color_2;
+                }
+
+                .form-inline {
+                    justify-content: center;
+                }
+
+                .final-value {
+                    margin: 0 auto;
+                    width: 300px;
+                    height: 60px;
+                    background: $color_1;
+                    border-radius: 5px;
+
+                    h3 {
+                        font-weight: $f_big;
+                        color: $color_2;
+                        padding: 10px 0;
+
+                        i {
+                            color: $color_2;
+                        }
+                    }
+                }
+
+                .alert {
+                    width: 300px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

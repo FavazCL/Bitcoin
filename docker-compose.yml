@@ -1,0 +1,31 @@
+version: '3.0'
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: frontend_my-app
+    container_name: frontend_v1
+    ports:
+      - 8080:80
+    networks: 
+      app:
+        ipv4_address: 60.0.0.2
+  # Build the backend stage
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: backend_my-app
+    container_name: backend_v1
+    ports:
+      - 1337:1337
+    networks: 
+      app:
+        ipv4_address: 60.0.0.3
+networks: 
+  app:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 60.0.0.0/24

@@ -1,0 +1,70 @@
+@import '../../../utilities/utility.component.scss';
+
+.graph {
+    padding: 20px 0;
+
+    .graph-title {
+        h1 {
+            font-weight: $f_big;
+        }
+    }
+
+    .graph-description {
+        color: $color_1;
+        font-weight: bold;
+    }
+
+    .graph-visual {
+        canvas {
+            width: 600px!important;
+            margin: 0 auto;
+        }
+    }
+    @media (min-width: 425px) {
+        .graph-visual {
+            canvas {
+                width: 425px!important;
+            }
+        }
+    }
+    @media (min-width: 375px) {
+        .graph-visual {
+            canvas {
+                width: 375px!important;
+            }
+        }
+    }
+    @media (min-width: 320px) {
+        .graph-visual {
+            canvas {
+                width: 320px!important;
+            }
+        }
+    }
+    @media (min-width: 1024px) {
+        .graph-visual {
+            canvas {
+                width: 600!important;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        .graph-visual {
+            canvas {
+                width: 600px!important;
+            }
+        }
+    }
+
+    .graph-options {
+        .row {
+            margin: 0;
+            padding: 0;
+            
+            .btn-group {
+                justify-content: center;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,23 @@
+@import '../utilities/utility.component.scss';
+
+.footer {
+    background-color: $color_4;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    
+    p {
+        margin: 0;
+        padding: 0;
+        color: $color_2;
+
+        i {
+            color: $color_7;
+        }
+
+        span {
+            font-weight: $f_medium;
+        }
+    }
+}

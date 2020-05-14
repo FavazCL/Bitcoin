@@ -1,0 +1,30 @@
+@import '../../../utilities/utility.component.scss';
+
+.record {
+    padding: 20px 0;
+    
+    .record-title {
+        h1 {
+            font-weight: $f_big;
+        }
+    }
+
+    .record-description {
+        color: $color_1;
+        font-weight: bold;
+    }
+
+    .mat-elevation-z8 {
+        margin: 0 10px;
+
+        table {
+            width: 100%;
+            text-align: center;
+
+            .mat-header-cell {
+                text-align: center;
+            }
+        }
+    }
+    
+}

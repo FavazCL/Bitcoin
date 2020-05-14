@@ -1,0 +1,20 @@
+@import '../../utilities/utility.component.scss';
+
+.main-record {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: $color_6;
+
+    .main-record-right {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .main-record-left {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+}

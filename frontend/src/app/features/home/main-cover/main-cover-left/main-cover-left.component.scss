@@ -1,0 +1,59 @@
+@import '../../../utilities/utility.component.scss';
+
+.information {
+    padding: 20px 0;
+    text-align: center;
+    
+    .information-title {
+        h1 {
+            font-weight: $f_big;
+        }
+    }
+
+    .information-description {
+        p {
+            font-weight: $f_small;
+        }
+    }
+
+    .information-icon {
+        padding: 30px 0;
+
+        i {
+            font-size: $s_big;
+            color: $color_2;
+        }
+    }
+
+    .information-value {
+        padding: 20px 0;        
+        background-color: $color_2;
+        border-radius: 5px;
+
+        h3 {
+            font-weight: $f_big;
+            padding: 5px 0;
+
+            i {
+                color: $color_7;
+            }
+
+            .fa-equals {
+                color: $color_5;
+            }
+
+            .fa-dollar-sign {
+                color: $color_3;
+            }
+        }    
+        
+        p {
+            padding-top: 20px;
+            padding-bottom: 0;
+
+            span {
+                font-weight: $f_medium;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@import '../utilities/utility.component.scss';
+
+nav {
+    a {
+        .fa-bitcoin {
+            color: $color_1;
+        }
+
+        .titleBit {
+            font-weight: $f_big;
+            color: $color_1;
+        }
+    }
+
+    div {
+        button {
+            font-weight: $f_medium;
+            text-transform: uppercase;
+        }
+
+        .modal {
+            .modal-dialog {
+                .modal-content {
+                    .modal-header {
+                        margin: 0 auto;
+
+                        h5 {
+                            font-weight: $f_big;
+                            text-transform: uppercase
+                        }
+                    }
+
+                    .modal-body {
+                        text-align: center;
+
+                        .row {
+                            a {
+                                color: inherit;
+
+                                i {
+                                    font-size: $s_medium;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

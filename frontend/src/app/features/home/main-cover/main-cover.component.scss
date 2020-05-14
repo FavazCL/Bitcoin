@@ -1,0 +1,23 @@
+@import '../../utilities/utility.component.scss';
+
+.main-cover {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+    .main-cover-right {
+        flex-grow: 1;
+        background-color: $color_5;
+        text-align: center;
+    }
+
+    .main-cover-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-grow: 2;
+        background-color: $color_1;
+    }
+}
